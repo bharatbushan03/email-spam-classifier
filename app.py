@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import preprocessing
+import nltk
 pickle.load(open(r'C:\Users\dell\Desktop\email-spam-classifier\model.pkl', 'rb'))
 st.title("Email/SMS Spam classifier")
 
