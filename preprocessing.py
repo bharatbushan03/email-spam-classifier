@@ -4,6 +4,7 @@ from nltk.stem.porter import PorterStemmer
 from nltk.corpus import stopwords
 from nltk import word_tokenize
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 def preprocessing_text(x):
     x = x.lower()
